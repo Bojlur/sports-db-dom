@@ -9,17 +9,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container w-100 m-auto">
+    <div class="container w-100 m-auto mt-5">
         <div class="row w-100 m-auto">
             <div class="col-md-6 text-center">
-                <h1>Left side</h1>
+                <!-- search area  -->
                 <div class="input-group mb-3 w-50 mx-auto">
                     <input id="search-box" type="text" class="form-control" placeholder="search player by name" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <button onclick="allPlayers()" class="btn btn-outline-secondary" type="button" id="search-btn">search</button>
                 </div>
+                <!-- show search player by name  -->
+                <div id="player-container" class="player-container">
+
+                </div>
             </div>
+            <!-- player details info  -->
             <div class="col-md-6 text-center">
-                <h1>Right side</h1>
+                <div class="img-container">
+                    <img id="female" class="w-50" src="./images/blog-1.png" alt="">
+                    <img id="male" class="w-50" src="./images/blog-3.png" alt="">
+                </div>
+                <div id="details-container" class="details-container">
+
+                </div>
             </div>
         </div>
     </div>
